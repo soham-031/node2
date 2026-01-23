@@ -3,76 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Codingwale | DevOps & Full Stack Training</title>
+  <title>Shivmauli Collection</title>
 
-  <!-- Tailwind CDN -->
+  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="font-sans">
 
   <!-- ===== NAVBAR ===== -->
-  <nav class="bg-gray-900 text-white">
+  <nav class="bg-pink-700 text-white">
     <div class="max-w-7xl mx-auto px-4">
       <div class="flex justify-between items-center h-16">
-        
-        <!-- Logo -->
-        <div class="text-2xl font-bold text-blue-400">
-          Codingwale
-        </div>
+        <h1 class="text-2xl font-bold">Shivmauli Collection</h1>
 
-        <!-- Menu -->
-        <div class="hidden md:flex space-x-8">
-          <a href="./courses.html" class="hover:text-blue-400">Courses</a>
-          <a href="#about" class="hover:text-blue-400">About</a>
-          <a href="#contact" class="hover:text-blue-400">Contact</a>
+        <div class="hidden md:flex space-x-6">
+          <a href="#home" class="hover:text-yellow-300">Home</a>
+          <a href="#about" class="hover:text-yellow-300">About</a>
+          <a href="#products" class="hover:text-yellow-300">Products</a>
+          <a href="#contact" class="hover:text-yellow-300">Contact</a>
         </div>
       </div>
     </div>
   </nav>
 
-  <!-- ===== IMAGE SLIDER ===== -->
-  <section class="relative w-full h-[400px] overflow-hidden">
-    <div id="slider" class="flex transition-transform duration-700">
-      
-      <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
-           class="w-full h-[400px] object-cover" />
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="relative h-[400px]">
+    <img src="https://images.unsplash.com/photo-1521335629791-ce4aec67dd53"
+         class="w-full h-full object-cover" />
 
-      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
-           class="w-full h-[400px] object-cover" />
-
-      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
-           class="w-full h-[400px] object-cover" />
-    </div>
-
-    <!-- Slider Text -->
     <div class="absolute inset-0 bg-black/50 flex items-center justify-center">
       <div class="text-center text-white">
-        <h1 class="text-4xl font-bold mb-4">DevOps & Full Stack Training</h1>
-        <p class="text-lg">Build your IT career with industry experts</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== COURSES SECTION ===== -->
-  <section id="courses" class="py-16 bg-gray-100">
-    <div class="max-w-7xl mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-10">Our Courses</h2>
-
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-white p-6 shadow rounded">
-          <h3 class="text-xl font-semibold mb-2">DevOps Training</h3>
-          <p>AWS, Docker, Kubernetes, CI/CD, Linux & Monitoring.</p>
-        </div>
-
-        <div class="bg-white p-6 shadow rounded">
-          <h3 class="text-xl font-semibold mb-2">Full Stack Development</h3>
-          <p>HTML, CSS, JavaScript, React, Node.js, MongoDB.</p>
-        </div>
-
-        <div class="bg-white p-6 shadow rounded">
-          <h3 class="text-xl font-semibold mb-2">Cloud & Automation</h3>
-          <p>Cloud fundamentals, Terraform, Ansible & Git.</p>
-        </div>
+        <h2 class="text-4xl font-bold mb-4">Welcome to Shivmauli Collection</h2>
+        <p class="text-lg">Ladies Wear • Kids Wear • Fashion Collection</p>
       </div>
     </div>
   </section>
@@ -80,25 +43,49 @@
   <!-- ===== ABOUT SECTION ===== -->
   <section id="about" class="py-16">
     <div class="max-w-6xl mx-auto px-4 text-center">
-      <h2 class="text-3xl font-bold mb-6">About Codingwale</h2>
+      <h2 class="text-3xl font-bold mb-6">About Shivmauli Collection</h2>
       <p class="text-gray-700 text-lg">
-        Codingwale is a professional IT training institute specializing in
-        DevOps, Full Stack Development, and Cloud technologies. We focus on
-        practical learning, real-time projects, and job-oriented training.
+        Shivmauli Collection हे एक विश्वासार्ह कपड्यांचे दुकान आहे.
+        येथे Ladies Wear, Kids Wear आणि नवीन फॅशन ट्रेंडचे कपडे
+        योग्य दरात उपलब्ध आहेत. ग्राहकांचे समाधान हेच आमचे ध्येय आहे.
       </p>
     </div>
   </section>
 
+  <!-- ===== PRODUCTS SECTION ===== -->
+  <section id="products" class="py-16 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-10">Our Products</h2>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 shadow rounded text-center">
+          <h3 class="text-xl font-semibold mb-2">Ladies Wear</h3>
+          <p>Sarees, Dress, Kurti & Fashion Wear</p>
+        </div>
+
+        <div class="bg-white p-6 shadow rounded text-center">
+          <h3 class="text-xl font-semibold mb-2">Kids Wear</h3>
+          <p>Comfortable & Stylish Kids Clothing</p>
+        </div>
+
+        <div class="bg-white p-6 shadow rounded text-center">
+          <h3 class="text-xl font-semibold mb-2">Seasonal Collection</h3>
+          <p>Festive & Latest Fashion Collection</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ===== CONTACT SECTION ===== -->
-  <section id="contact" class="py-16 bg-gray-900 text-white">
+  <section id="contact" class="py-16 bg-pink-700 text-white">
     <div class="max-w-6xl mx-auto px-4">
       <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
 
       <div class="grid md:grid-cols-2 gap-8">
         <div>
-          <p class="mb-2">📍 Location: India</p>
-          <p class="mb-2">📞 Phone: +91 98765 43210</p>
-          <p class="mb-2">📧 Email: info@codingwale.com</p>
+          <p class="mb-2">📍 Location: Maharashtra, India</p>
+          <p class="mb-2">📞 Phone: +91 9XXXXXXXXX</p>
+          <p class="mb-2">📧 Email: shivmaulicollection@gmail.com</p>
         </div>
 
         <form class="space-y-4">
@@ -108,7 +95,7 @@
             class="w-full p-3 rounded text-black" />
           <textarea placeholder="Your Message"
             class="w-full p-3 rounded text-black"></textarea>
-          <button class="bg-blue-500 px-6 py-3 rounded hover:bg-blue-600">
+          <button class="bg-yellow-400 text-black px-6 py-3 rounded hover:bg-yellow-500">
             Send Message
           </button>
         </form>
@@ -118,20 +105,8 @@
 
   <!-- ===== FOOTER ===== -->
   <footer class="bg-black text-center text-white py-4">
-    © 2026 Codingwale. All Rights Reserved.
+    © 2026 Shivmauli Collection. All Rights Reserved.
   </footer>
-
-  <!-- ===== SLIDER SCRIPT ===== -->
-  <script>
-    let index = 0;
-    const slider = document.getElementById("slider");
-    const slides = slider.children.length;
-
-    setInterval(() => {
-      index = (index + 1) % slides;
-      slider.style.transform = `translateX(-${index * 100}%)`;
-    }, 3000);
-  </script>
 
 </body>
 </html>
